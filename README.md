@@ -30,6 +30,7 @@ context to individual battles.
 1. Weathertop - defend until Aragorn can pick up torch and touch each wraith
 1. Moria (skirmish in Balin's tomb) - all the fellowship defends against goblins and cave troll
 1. Amon Hen - skirmish when Boromir is killed
+1. Lighting the beacons - slip around guards to light to send for Rohan to aid Gondor
 
 Subscenes of larger battles
 1. Helm's Deep - Explosion of Deeping Wall
@@ -86,19 +87,38 @@ wish to pass.
 
 #### Activation
 
+##### Pre-activation
+* At the start of an activation, an unengaged character may pick up an item
+if they are not carrying anything
+* A routing character cannot perform an action and must move their full move
+distance towards the nearest table edge and may not perform any action.
+* A character in melee must continue melee combat.
+
 During an activation, a character may
 
-1. If in base-to-base contact with an enemy character, the character must
-continue melee contact until one of the characters falls from wounds or routes.
-1. If a character is routing, they must move the maximum distance towards the
-closest table edge.
-1. Before a move, a character may pick up a target.
-1. Move up to 3", pivot, and move up to 3", or move 6" in a single direction.
-If the character moves into base contact with another character, they can
-melee attack. If a character fells an enemy during melee, they can follow up
-with up to 3" of movement.
-1. Move up to 3" and shoot with a -1 attack modifier.
-1. Stand and shoot with no modifier.
+1. Move
+    The character can pivot, move half of their move distance in a straight line,
+    pivot, and move the other half of their move distance. Or they can pivot and move
+    their full move distance in a straight line.
+1. Shoot
+    They can shoot another character in their forward 180 degree arc of vision.
+    Follow the rules for resolving combat.
+1. Move and shoot
+    The player can make a move as above and then shoot a character as the above
+    rules specify. The character takes a penalty for shooting after a move to
+    simulate the difficulty of getting off a shot while running.
+1. Move into melee
+    If an enemy character is within its full move distance, the activated
+    character may move into base-to-base contact with the enemy character and
+    follow the rules to resolve combat. If the activated character fells the
+    enemy character they may take another activation with only half of their
+    movement distance allowed.
+1. Continue melee
+    Follow the rules to resolve combat. As above, if the activated character fells the
+    enemy character they may take another activation with only half of their
+    movement distance allowed.
+
+##### Combat
 
 Attacking consists of rolling on D6, adding the attacking character's attack
 modifier, and subtracting the defender's defence modifier. If the resulting
@@ -109,35 +129,33 @@ available wound slot.
 
 If a character is removed from play and their company has lost over 50% of its
 units, the company must make a route check. Roll a D6, and on a roll of 3 or
-less, the company routes.
+less, the company is routing and all of their characters must route during
+their activation.
 
 ### AI
 The basic AI is as follows.
 
-1. Route towards nearest table edge if company is routing
+##### Pre-activation
+
+Follow pre-activation rules if routing or in melee combat. If unengaged and
+next to an objective, pick it up.
+
+##### Activation
+
 1. If carrying an objective, move towards the nearest table edge.
-1. If standing near a target, pick it up.
-1. Continue melee if in melee. If multiple bases are in contact, use
-a D6 to determine which enemy to attack.
-1. If in shooting range of a shootable enemy, stand and shoot. If multiple
-enemies can be shot at, shoot at the closest one.
-1. If character can move into shooting range of shootable enemy,
-move and shoot, always choosing the closest target.
-1. If there is a visible target in movement range, move towards it and
-pick it up.
+1. Continue melee if in melee. If multiple bases are in contact, use a D6 to
+determine which enemy to attack. If an enemy is felled, move forward in the
+direction of the felled enemy and continue the turn per the instructions below.
+1. If in shooting range of an enemy, stand and shoot. If multiple enemies can
+be shot at, shoot at the nearest one.
+1. If it's possible to move into shooting range of an enemy, move and shoot,
+always choosing the closet objective.
+1. If there is a visible objective in movement range, move towards it.
 1. If there are unengaged enemies in movement range, move towards the closest
-one and engage in melee. If an enemy is felled, follow it up with a 3" move.
-1. If a target is viewable, move towards the nearest target
-1. If an enemy is viewable, move towards the nearest enemy
-
-1. If routing, route towards the nearest table edge.
-1. If engaged in melee, resolve melee.
-1. If next to a fallen target, pick it up.
-1. If carrying a target, move towards the nearest table edge.
-1. If in shooting range, stand and shoot at closest target.
-1. If can move into shooting range, move and shoot and closest target.
-1. If target can be engaged, engage target. If it can be picked up, pick it up.
-
+enemy and engage in melee. Follow the above rules on "continue melee" for how
+to handle felling an enemy.
+1. If a objective is viewable, move towards the nearest objective.
+1. If an enemy is viewable, move towards the nearest enemy.
 
 ### Cooperative play
 For cooperative play, human generals each manage one or more friendly characters.
