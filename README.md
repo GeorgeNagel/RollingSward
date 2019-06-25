@@ -66,6 +66,8 @@ from the board or all units are wounded to the ground. After the game, any
 wounds the player's characters sustained are resolved and play moves back to
 the narrative layer.
 
+Battles are faught on a 2' by 2' area.
+
 Play proceeds as follows.
 
 "General" means either the player commanding friendly units or the AI

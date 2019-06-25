@@ -47,29 +47,71 @@ and will ignore Aragorn.
 activation, a wraith may pick up the felled hobbit and begin moving towards the nearest
 table edge.
 
+Table:
+Weathertop consists of a 6"x6" courtyard with ruined walls.
+Each wall has several arched openings. The courtyard sits atop a hill with
+stairs or a ramp leading both from the west side and east side of the courtyard.
+At the start of the battle, the hobbits are in the courtyard, the wraiths start 10" from
+east of the courtyard and Aragorn starts on the west table edge.
+
+### Rivendell (healing)
+Any units who had wound points from the Skirmish at Weathertop heal all wound slots.
+
 ### Wargs Near The Misty Mountains
 3019, 13 January, morning
-The fellowship is attacked by wargs.
+
+Friendly characters:
+All living members of The Fellowship
+
+Enemy characters:
+Wargs
+
+Special rules:
+* Wargs may make three pivot-move sequences of 2" moves. 
+If they fell an enemy, they can only follow with a single 2" move activation.
+* If all three of the alpha wargs are killed, all of the wargs will route.
+* If Gandalf picks up the torch, all unengaged wargs will keep 4" away from him.
+If an unengaged warg is closer than 4" to Gandalf when he is carrying the torch,
+they will use their activation to move at least 4" away from Gandalf before doing anything else.
+
+Table:
+In the center of the table is a stone circle atop a hill, 10" in diameter.
+Inside the circle is a crop of 3-4 trees.
+There is a fire just south of the tree cluster.
+On the fire is a torch that Gandalf may pick up.
+The Fellowship deploys around the fire.
+The wargs deploy even-spaced outside the stone circle.
 
 ### Watcher of Moria
 3019, 13 January, evening
 Watcher in the pool outside the gates of Moria attacks the fellowship.
+Enemy characters:
+The Watcher of Moria
 
 ### Skirmish in Balin's Tomb
 3019, 15 January
 Orcs and Cave troll attack the fellowship in Balin's Tomb
+Enemy characters:
+Cave troll and Goblins of Moria.
 
 ### Bridge of Khazad-Dûm
 3019, 15 January
 Balrog chases the fellowship across the bridge while orcs shoot at them.
+Enemy characters:
+Balrog, any routed goblins from the previous battle. Those goblins now all
+have a 6" shooting range.
 
 ### Battle of Amon Hen
 3019, 26 February
 Oruk-hai scouts attack the fellowship.
 
+Enemy characters:
+All Uruk-hai
+
 ### Shelob's Lair
 3019, 13 March
-Shelob attacks Frodo and Sam
+Enemy characters:
+Shelob
 
 ### Mount Doom
 3019, 25 March
