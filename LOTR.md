@@ -46,6 +46,7 @@ and will ignore Aragorn.
 * On a successful wound of a hobbit, the hobbit is knocked down. At the beginning of an
 activation, a wraith may pick up the felled hobbit and begin moving towards the nearest
 table edge.
+* If the ring bearer is felled, he is also stabbed, taking a -1 Defense for the remainder of the game.
 
 Table:
 Weathertop consists of a 6"x6" courtyard with ruined walls.
@@ -67,26 +68,59 @@ Enemy characters:
 Wargs
 
 Special rules:
-* Wargs may make three pivot-move sequences of 2" moves. 
-If they fell an enemy, they can only follow with a single 2" move activation.
 * If all three of the alpha wargs are killed, all of the wargs will route.
-* If Gandalf picks up the torch, all unengaged wargs will keep 4" away from him.
-If an unengaged warg is closer than 4" to Gandalf when he is carrying the torch,
-they will use their activation to move at least 4" away from Gandalf before doing anything else.
+* None of the wargs will route until all three alphas are killed.
+* If Gandalf picks up the torch, all unengaged wargs will keep 2" away from him.
+If an unengaged warg is closer than 2" to Gandalf when he is carrying the torch,
+they will use at least half of their movement activation to move
+at least 2" away from Gandalf before doing anything else.
 
 Table:
 In the center of the table is a stone circle atop a hill, 10" in diameter.
 Inside the circle is a crop of 3-4 trees.
 There is a fire just south of the tree cluster.
 On the fire is a torch that Gandalf may pick up.
-The Fellowship deploys around the fire.
+The Fellowship deploys around the fire at minimum 1" away from other characters.
+Gandalf must deploy on the other side of the trees from the torch.
 The wargs deploy even-spaced outside the stone circle.
 
 ### Watcher of Moria
 3019, 13 January, evening
-Watcher in the pool outside the gates of Moria attacks the fellowship.
+
+Friendly characters:
+All living members of The Fellowship
+
 Enemy characters:
-The Watcher of Moria
+The Watcher In The Water
+
+Table:
+In the center of the board is a 8" diameter pool.
+4" to the east of the pool is the gate to Moria.
+In the center of the pool is the Watcher, represented by 21 tentacles.
+The Fellowship deploy between the pool and the gate.
+
+Special rules:
+* Each tentacle has a range of 4" _outside_ the pool.
+* Each tentacle may move any distance as long as it stays
+    within 4" _outside_ the pool.
+* Each tentacle gets its own activation.
+* On a successful attack, the tentacle picks up the defendant.
+* If picked up, the defendant can no longer attack until dropped.
+* If a tentacle carrying a character is felled, it drops the character it is carrying.
+* A Fellowship character can move half their normal move distance if they are in the pool.
+* If a carried character is inside the pool for a full turn they are drowned.
+* Play ends when every Fellowship character is felled or inside the gates to Moria.
+
+AI:
+* If carrying characters, move the character closest to the pool into the center
+    of the pool.
+* The unactivated tentacle closet to an enemy will activate.
+* If a tentacle starts its turn carrying someone, it will move them inside the
+    pool to "drown" them.
+* If a character is drowned, the tentacle is free to attack another character.
+* The Watcher may only carry three characters at a time.
+* Once 10 tentacles have been felled, all tentacles not carrying someone will
+    "retreat" underwater and leave the board.
 
 ### Skirmish in Balin's Tomb
 3019, 15 January
