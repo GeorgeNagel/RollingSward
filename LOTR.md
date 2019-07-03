@@ -124,16 +124,104 @@ AI:
 
 ### Skirmish in Balin's Tomb
 3019, 15 January
-Orcs and Cave troll attack the fellowship in Balin's Tomb
+
+Friendly characters:
+All living members of The Fellowship
+
 Enemy characters:
 Cave troll and Goblins of Moria.
 
+Table:
+A 6x6 enclosed area surrounded by walls and a doorway on the North side.
+On the South wall is a 1" raised platform, 1" wide, wrapping around 3" on the
+West and East walls, with ramps leading down to ground level.
+Pillars are on the inside corners of the platform, on the South-East and
+South-West of the room.
+In the center of the room is Balin's sarcophagus.
+The Fellowship deploys inside the room.
+The Goblins of Moria and cave troll deploy order line outside the North doorway.
+The Goblins deploy with three goblins, then the cave troll, then the rest
+of the goblins.
+The Goblins and Cave troll do not deploy until it is their first activation. Then,
+they deploy as near to just outside the North doorway as possible.
+
+Special Rules:
+* The cave troll does not lock into melee and other do not lock into melee
+with it
+* The cave troll has a 2" melee range
+* Characters hit by the cave troll are knocked by 2" or until they hit another
+character or object.
+* The Cave Troll can attack anyone it sees within range on ground level or
+on the raised platform
+* The Cave troll will "friendly fire" if it attacks multiple enemies within range
+* The Goblins of Moria cannot perform range attacks
+* The Goblins will route if over half of their kind are killed or the Cave Troll
+is kills and at least three of the Goblins are killed.
+* The Fellowship cannot leave the tomb.
+* The Cave Troll never routes.
+
+AI:
+* The Goblins and Cave troll activate in the order they come in the room
+(three goblins, then the cave troll, then the other goblins)
+
+Cave Troll AI:
+* The Cave Troll will move into melee range of as many enemies as possible.
+* All things equal, the Cave Troll will move into melee with the closest unit(s).
+* The Cave Troll will make a "swipe" hit if multiple enemies are in melee range.
+This is one activation, but multiple rolls are made for ALL characters in
+melee range (including friendlies). It only melees in its facing direction.
+* If a character wounded it the previous round, it will move towards that enemy.
+* If multiple enemies wounded it, it will move towards the closest one.
+* If a pillar is in the way of swiping two or more characters, use a d6 to see
+which side the troll swipes.
+
+Goblin AI:
+* Route towards North gate if routing.
+* Continue melee if in melee.
+* Engage the closest unengaged character. If multiple characters are closest,
+roll a D6 to choose which to pursue.
+* Move towards the closest unengaged character. If multiple characters are closest,
+roll a D6 to choose which to pursue.
+
+
+Items:
+Mithril shirt - At the end of the round, on a 4-6, it moves a wound from
+death to wound-until-haven, or wound-until-haven to not-wounded.
+
+
 ### Bridge of Khazad-Dûm
 3019, 15 January
-Balrog chases the fellowship across the bridge while orcs shoot at them.
+
+Friendly characters:
+All living members of The Fellowship
+
 Enemy characters:
-Balrog, any routed goblins from the previous battle. Those goblins now all
-have a 6" shooting range.
+The Balrog and the Orcs of Moria
+
+Table:
+The table consists of two arched walkways separated by a gap going West to East.
+The Fellowship deploys on the East side of the Western arch.
+The Balrog deploys on the West side of the Western arch.
+The Orcs deploy along the western wall to fire on the Western arch.
+
+Special rules:
+* Orcs can shoot at any enemy on the Western arch. As soon as the enemy is on the
+    Eastern arch, they are out of range.
+* The Balrog can move any distance required to catch up with the closest enemy.
+* To cross the gap in the arches, a Fellowship character must roll a D6. On a
+    1, the character falls into the abyss.
+* If the Balrog is wounded, it gets an immediate follow-on attack on whoever attacked it.
+    On a success, that Fellowship character falls into the abyss.
+* Play ends when all living Fellowship characters are on the Eastern arch.
+
+AI:
+
+Orcs:
+The orcs will shoot at the closest enemy that has not been shot at this turn.
+
+Balrog:
+Always move up to the closest Fellowship character on the Western arch and attack them.
+
 
 ### Battle of Amon Hen
 3019, 26 February
@@ -150,3 +238,8 @@ Shelob
 ### Mount Doom
 3019, 25 March
 The ring is destroyed
+
+Roll to see if the Ringbearer willingly throws in the ring.
+On a 6, they willingly throw in the ring. Otherwise, Gollum or one of the other
+Fellowship must attack them to win the ring (and roll a D6 again) or push them
+off into the fire.
