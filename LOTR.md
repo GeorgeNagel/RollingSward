@@ -277,6 +277,8 @@ Ringbearer hobbit and chosen companion hobbit.
 
 Table:
 The mouth of a cave with a canyon wall 6" opposite.
+There is a ledge along the canyon wall with a ramp in the center.
+Only the hobbits may climb up the ledge.
 Shelob deploys in the mouth of the cave
 The ringbearer deploys in front of the cave
 The companion deploys 12" sounth of the cave.
@@ -289,10 +291,54 @@ Special Rules:
 character may pick it up.
 * When Shelob is fully wounded, she retreats back into the cave and play is ended.
 * If a hobbit is wounded, they are stuck in place and cannot activate again.
+* The ledge supplies a +1 Defense to a hobbit who is on it.
+* Shelob does not hold a unit in place during melee.
+
+AI:
+1. If carrying a character, move them to the back of the cave and drop them.
+1. If next to a felled character, pick them up and move them to the back of the cave.
+1. Attack the closest character.
+
 
 ### Mount Doom
 3019, 25 March
 The ring is destroyed
+
+Enemy characters:
+Gollum
+
+Friendly characters:
+Ringbearer and companion
+
+Table:
+Arched walkway of Mount Doom.
+Ringbearer deploys at the end of the walkway.
+Gollum deploys in the middle.
+Companion deploys at the start of the walkway.
+
+Special rules:
+* At the start of their activate, the ringbearer may roll a D6 to see if they toss the ring
+into Mount Doom. On a 6, they are successful. On a 4 or 5, they hesitate (end their activation).
+On a 1-3, they decide to keep the ring for themselves. They now become AI controlled.
+* On a successful attack of the ringbearer, the ring is dropped.
+* A character may pick up a dropped ring at the start of their activation.
+They become the ringbearer.
+* On a successful hit, the defender is knocked back 2".
+* If a character is knocked past the edge of the walkway, roll a D6. On a 1-3,
+they fall to their death. On a 4 or 5, they hang on to the edge but have to
+check again next turn to see if they climb up. On a 6, they climb up the ledge.
+* Characters can move past each other on the ledge.
+* All characters can move only 2".
+
+Gollum AI:
+* Gollum will attack whoever has the ring.
+* When carrying the ring, Gollum will move 1" towards the start of the platform
+to leave the play area.
+
+Ringbearer AI:
+* If the ringbearer decides to keep the ring for themselves, they spend their
+activation moving 1" towards the start of the platform.
+
 
 Roll to see if the Ringbearer willingly throws in the ring.
 On a 6, they willingly throw in the ring. Otherwise, Gollum or one of the other
