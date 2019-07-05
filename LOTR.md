@@ -317,20 +317,18 @@ Gollum deploys in the middle.
 Companion deploys at the start of the walkway.
 
 Special rules:
-* At the start of their activate, the ringbearer may roll a D6 to see if they toss the ring
+* At the start of their activate, a Fellowship ringbearer may roll a D6 to see if they toss the ring
 into Mount Doom. On a 6, they are successful. On a 4 or 5, they continue their activation.
 On a 1-3, they hesitate (end their activation).
-* On a successful attack of the ringbearer, the ring is dropped.
-* A character may pick up a dropped ring at the start of their activation.
-They become the ringbearer.
+* On a successful attack of a character holding the ring, the ring is dropped.
+* A character can pick up the ring at any point in their turn if they're next to it.
+They become the Ringbearer.
 * On a successful hit, the defender is knocked back 2".
 * If a character is knocked past the edge of the walkway, roll a D6. On a 1-3,
 they fall to their death. On a 4 or 5, they hang on to the edge but have to
 check again next turn to see if they climb up. On a 6, they climb up the ledge.
 * Characters can move past each other on the ledge.
 * All characters can move only 2".
-* A character can pick up the ring at any point in their turn if they're next to it.
-* If Gollum is wounded he is only knocked back; he will not drop the ring.
 * Each character gets one wound.
 * If wounded past their wound allotment, they are felled.
 
