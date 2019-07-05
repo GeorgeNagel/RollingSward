@@ -318,8 +318,8 @@ Companion deploys at the start of the walkway.
 
 Special rules:
 * At the start of their activate, the ringbearer may roll a D6 to see if they toss the ring
-into Mount Doom. On a 6, they are successful. On a 4 or 5, they hesitate (end their activation).
-On a 1-3, they decide to keep the ring for themselves. They now become AI controlled.
+into Mount Doom. On a 6, they are successful. On a 4 or 5, they continue their activation.
+On a 1-3, they hesitate (end their activation).
 * On a successful attack of the ringbearer, the ring is dropped.
 * A character may pick up a dropped ring at the start of their activation.
 They become the ringbearer.
@@ -329,16 +329,15 @@ they fall to their death. On a 4 or 5, they hang on to the edge but have to
 check again next turn to see if they climb up. On a 6, they climb up the ledge.
 * Characters can move past each other on the ledge.
 * All characters can move only 2".
+* A character can pick up the ring at any point in their turn if they're next to it.
+* If Gollum is wounded he is only knocked back; he will not drop the ring.
+* Each character gets one wound.
+* If wounded past their wound allotment, they are felled.
 
 Gollum AI:
 * Gollum will attack whoever has the ring.
-* When carrying the ring, Gollum will move 1" towards the start of the platform
+* When carrying the ring, Gollum will move towards the start of the platform
 to leave the play area.
-
-Ringbearer AI:
-* If the ringbearer decides to keep the ring for themselves, they spend their
-activation moving 1" towards the start of the platform.
-
 
 Roll to see if the Ringbearer willingly throws in the ring.
 On a 6, they willingly throw in the ring. Otherwise, Gollum or one of the other
