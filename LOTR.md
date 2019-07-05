@@ -225,15 +225,70 @@ Always move up to the closest Fellowship character on the Western arch and attac
 
 ### Battle of Amon Hen
 3019, 26 February
-Oruk-hai scouts attack the fellowship.
+
+Friendly characters:
+All living members of The Fellowship
 
 Enemy characters:
 All Uruk-hai
 
+Table:
+The hobbits and Boromir deploy on the south-center of the table.
+The other Fellowship characters deploy on the North-center of the table.
+Place orcs alternating East and West on the table edge.
+Trees are scattered on the table.
+
+Special Rules:
+* Orcs will not shoot at a hobbit.
+* If a hobbit is felled, it falls over and may be picked up at the beginning of
+an orc's turn
+* If a Fellowship character is felled, The Fellowship routes.
+* Orcs route on 6 orcs being felled
+
+AI:
+1. If carrying a hobbit, move towards the nearest table edge.
+1. Continue melee if in melee. If multiple bases are in contact, use a D6 to
+determine which enemy to attack. If an enemy is felled, move forward in the
+direction of the felled enemy and continue the turn per the instructions below.
+1. If in shooting range of an enemy, stand and shoot. If multiple enemies can
+be shot at, shoot at the nearest one.
+1. If it's possible to move into shooting range of an enemy, move and shoot,
+always choosing the closet target.
+1. If there is a visible hobbit in movement range, move towards it and engage
+in melee. If the attack is successful, the hobbit falls over.
+1. If there are unengaged enemies in movement range, move towards the closest
+enemy and engage in melee. Follow the above rules on "continue melee" for how
+to handle felling an enemy.
+1. If a hobbit is viewable, move towards the nearest hobbit.
+1. If an enemy is viewable, move towards the nearest enemy.
+1. Move towards the center of the table.
+
+After the battle, the surviving ringbearer may choose one surviving
+hobbit to accompany him for the rest of the journey.
+
 ### Shelob's Lair
 3019, 13 March
+
 Enemy characters:
 Shelob
+
+Friendly characters:
+Ringbearer hobbit and chosen companion hobbit.
+
+Table:
+The mouth of a cave with a canyon wall 6" opposite.
+Shelob deploys in the mouth of the cave
+The ringbearer deploys in front of the cave
+The companion deploys 12" sounth of the cave.
+
+Special Rules:
+* One character may carry the Light of Earendil at a time.
+* While carrying the Light of Earendil, Shelob has only
++0 defense, +0 attack against the carrying character.
+* If the character carrying the Light of Earendil is felled, the other
+character may pick it up.
+* When Shelob is fully wounded, she retreats back into the cave and play is ended.
+* If a hobbit is wounded, they are stuck in place and cannot activate again.
 
 ### Mount Doom
 3019, 25 March

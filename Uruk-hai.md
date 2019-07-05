@@ -45,33 +45,33 @@ Yak'gnath
 ```
 Move: 6"
 Attack: +0
-Defense: +0
+Defense: -1
 ```
 
 Carguk
 ```
 Move: 6"
 Attack: +0
-Defense: +0
+Defense: -1
 ```
 
 Bilgê
 ```
 Move: 6"
 Attack: +0
-Defense: +0
+Defense: -1
 ```
 
 Nothûg
 ```
 Move: 6"
 Attack: +0
-Defense: +0
+Defense: -1
 ```
 
 Tazhûg
 ```
 Move: 6"
 Attack: +0
-Defense: +0
+Defense: -1
 ```
