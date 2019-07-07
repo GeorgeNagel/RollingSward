@@ -1,6 +1,4 @@
-# Ring Wraith Characters
-
-Unless otherwise stated, the character has 0 wound slots.
+# Ring Wraiths
 
 Murazor (the Witch-king of Angmar)
 ```
@@ -9,6 +7,7 @@ Mounted Move: 8"
 Flight Move: 12"
 Attack: +3
 Defense: +1
+Wounds: 0
 ```
 
 Khamûl (second in command)
@@ -18,6 +17,7 @@ Mounted Move: 8"
 Flight Move: 12"
 Attack: +2
 Defense: +1
+Wounds: 0
 ```
 
 Dwar
@@ -27,6 +27,7 @@ Mounted Move: 8"
 Flight Move: 12"
 Attack: +1
 Defense: +1
+Wounds: 0
 ```
 
 Ji Indur
@@ -36,6 +37,7 @@ Mounted Move: 8"
 Flight Move: 12"
 Attack: +1
 Defense: +1
+Wounds: 0
 ```
 
 Akhorahil
@@ -45,6 +47,7 @@ Mounted Move: 8"
 Flight Move: 12"
 Attack: +1
 Defense: +1
+Wounds: 0
 ```
 
 Hoarmurath
@@ -54,6 +57,7 @@ Mounted Move: 8"
 Flight Move: 12"
 Attack: +1
 Defense: +1
+Wounds: 0
 ```
 
 Adunaphel
@@ -63,6 +67,7 @@ Mounted Move: 8"
 Flight Move: 12"
 Attack: +1
 Defense: +1
+Wounds: 0
 ```
 
 Ren
@@ -72,6 +77,7 @@ Mounted Move: 8"
 Flight Move: 12"
 Attack: +1
 Defense: +1
+Wounds: 0
 ```
 
 Uvatha
@@ -81,4 +87,5 @@ Mounted Move: 8"
 Flight Move: 12"
 Attack: +1
 Defense: +1
+Wounds: 0
 ```

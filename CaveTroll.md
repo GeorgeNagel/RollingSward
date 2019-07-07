@@ -2,7 +2,7 @@
 
 ```
 Move 4"
-A: +2
-D: +0
+Attack: +2
+Defense: +0
 Wounds: 4
 ```
